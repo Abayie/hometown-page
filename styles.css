@@ -1,0 +1,141 @@
+
+:root{
+
+--dark-slate-blue: #393E8F;
+--upsdell-red: #B12228;
+--crayolas-orange-yellow: #F3CC64;
+--medium-champagne:#FEECAE;
+--oxford-blue: #12194A;
+--christmas-green: #6a994e;
+}
+
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    margin: 0px;
+}
+#hero{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.visitcardiff.com/app/uploads/2024/09/Christmas-Head.webp"),linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%);
+
+}
+.hero-title{
+    margin: 30px;
+    background: var(--dark-slate-blue);
+    padding: 4px 40px;
+    border-radius: 14px;
+}
+.hero-subtitle{
+    margin: 100px 0 40px 0;
+    background: var(--christmas-green);
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-weight: 300;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#activities{
+  
+    background: var(--medium-champagne);
+}
+.activities-box{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+    background: var(--medium-champagne);
+    color: var(--oxford-blue);
+}
+.activity{
+ 
+    width: 200px;
+}
+.activity-img{
+   
+    border-radius: 50%;
+    width: 150px;
+}
+
+#yourguide{
+   
+    padding: 60px 0px;
+    background-color: whitesmoke;
+}
+.guide-card{
+  
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+
+    background: var(--dark-slate-blue);
+    border-bottom: 10px solid var(--upsdell-red);
+    border-radius: 6px;
+}
+.guide-img{
+    width: 180px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guideinfo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#bonus{
+    color:var(--oxford-blue);
+    background:whitesmoke;
+}
+.bonus-banner{
+    background-image: linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%)    ;
+    height: 75px;
+}
+.bonus-banner h1{
+    margin: auto 0px;
+    padding: 20px;
+    text-shadow: 0 0 3px white;
+}
+.bonus-info{
+    width: 500px;
+    margin: auto;
+}
+
+#before-after-img{
+    background: url("cardiff/castle.jpg");
+    height: 745px;
+    margin: 0 auto; /*centers the img with the larger wrapper */
+    padding-bottom: 30px;
+    width: 555px;
+    border: 3px dashed var(--dark-slate-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#before-after-img:hover{
+    background: url("cardiff/cardiff-bay.jpg");
+    height: 745px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center{
+	margin: auto;
+	text-align: center;
+}
